@@ -95,7 +95,7 @@ function addMultipliers() {
 
 function getHeroXpGainMultipliers(job)
 {
-    var baseMult = 1
+    var baseMult = 10
 
     if (job instanceof Job)
         baseMult = 50000
